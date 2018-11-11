@@ -14,8 +14,9 @@ User asserts: like regular asserts, these errors arise when executing a command 
 Rollovers asserts: The number of times that the rollover counters have rolled over since the last time the MongoDB process started
 
 Report example: 
+
 CONFIGURING AND RUNNING
-1. Edit MongoDB credentials in mysqlhealthchecks.sh
+1. Edit MongoDB credentials in mongodb-healthreport.sh
 2. Run ./mongodb-healthreport.sh
 3. Enjoy!
 
@@ -24,4 +25,5 @@ Script will automatically send report to email address given in script.
 Report will be emailed to you. Useful when running script via cron.
 
 DOCUMENTATION
+
 version 1.0
