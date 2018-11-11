@@ -1,4 +1,4 @@
-THE GOAL
+#### THE GOAL
 
 Consolidate main MongoDB and system health metrics in one report.
 Useful for routine daily and weekly MongoDB checks.
@@ -15,7 +15,7 @@ Rollovers asserts: The number of times that the rollover counters have rolled ov
 
 Report example: 
 
-CONFIGURING AND RUNNING
+#### CONFIGURING AND RUNNING
 1. Edit MongoDB credentials in mongodb-healthreport.sh
 2. Run ./mongodb-healthreport.sh
 3. Enjoy!
@@ -24,6 +24,8 @@ Script will automatically send report to email address given in script.
 
 Report will be emailed to you. Useful when running script via cron.
 
-DOCUMENTATION
+#### DOCUMENTATION
 
 version 1.0
+
+#### DOWNLOAD LATEST
